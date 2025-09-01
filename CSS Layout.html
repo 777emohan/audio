@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            background-color: rgb(248, 189, 130);
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            /* display: inline-block; */
+            background-color: green;
+            display: flex;
+        }
+
+        .box1 {
+            height: 70vh;
+            width: 50%;
+
+            background-color: rgb(218, 59, 112);
+        }
+
+        .box2 {
+            height: 70vx;
+            width: 50%;
+            background-color: rgb(83, 83, 200);
+
+        }
+
+        footer {
+            background-color: rgb(59, 237, 10);
+            height: 40vh;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>This is the section which the position is sticky</nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box1"><center>This is box 1</center></div>
+            <div class="box2"><center>This is box 2</center></div>
+            
+        <div class="text-box">
+            <p>Welcome to Sigma Web Development Express</p>
+        </div>
+
+    </main>
+    <footer> This is footer</footer>
+
+</body>
+
+</html>
